@@ -7,9 +7,17 @@ import java.nio.file.Files.list
 object DataService {
     val categories = listOf(
         Category("SHIRTS", "shirtimage"),
+    Category("HOODIES", "hoodieimage"),
+    Category("HATS", "hatimage"),
+    Category("DIGITAL", "digitalgoodsimage"),
+        Category("SHIRTS", "shirtimage"),
         Category("HOODIES", "hoodieimage"),
         Category("HATS", "hatimage"),
-        Category("DIGITAL", "digitalimage")
+        Category("DIGITAL", "digitalgoodsimage"),
+        Category("SHIRTS", "shirtimage"),
+        Category("HOODIES", "hoodieimage"),
+        Category("HATS", "hatimage"),
+        Category("DIGITAL", "digitalgoodsimage")
     )
     val hats = listOf(
         Product("Hat1", "$12","hat1"),
