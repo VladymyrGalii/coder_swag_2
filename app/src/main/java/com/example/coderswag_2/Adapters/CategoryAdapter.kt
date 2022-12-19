@@ -10,7 +10,8 @@ import android.widget.TextView
 import com.example.coderswag_2.Model.Category
 import com.example.coderswag_2.R
 
-class CategoryAdapter(private val context: Context, private val categories: List<Category>) : BaseAdapter() {
+class CategoryAdapter(private val context: Context, private val categories: List<Category>) :
+    BaseAdapter() {
 
     override fun getCount(): Int {
         return categories.count()
@@ -46,7 +47,7 @@ class CategoryAdapter(private val context: Context, private val categories: List
         return categoryView
     }
 
-    private class ViewHolder{
+    private class ViewHolder {
         var categoryImage: ImageView? = null
         var categoryName: TextView? = null
     }
